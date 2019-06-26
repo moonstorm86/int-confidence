@@ -1,7 +1,1 @@
-This was a simple project to help gain confidence in the feedback I was given during interviews. I was doing an analysis of user behavior and their feelings about using their voice interfaces, Alexa and Google Home. The interviews gave some interesting data, but since interviews are case studies I wanted to explore ways to confirm the findings in a more robust way. 
-
-This led to the experiment I have here. I used the praw library for Python to make a super basic web scraper for the subreddit r/AmazonEcho. There was a sticky page that had users posted their most requested features. So, I made the scraper pull down the comments and push them over to a .csv file. I used this to further analyze and confirm the data I recieved from the interviews while also doing a deeper sentiment analysis since I was able to harvest far more data than I had initially intended. 
-
-It's a simple demonstration of how we can use dark data or publicly available data in a creative fashion that doesn't appear to be harmful to anyone and can lead to a nuanced understanding of user behavior. At the same time, however, it does push many questions about the ethics about this way of surveying the public. My analysis focused more on the phenomenon of their use and how the the people sharing their most desired features allows us a window into the ways a device is failing. This information can be used to improve or broaden the use cases. 
-
-In this case, it certainly exposed a number of interesting findings. Specifically, the devices are highly isolated reflecting the competitive nature (and perhaps uncooperatively competitive by design) of leading tech companies. 
+Web scraper using praw library built for python programming language to communicate with the Reddit API. 
